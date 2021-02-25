@@ -1,0 +1,43 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #458bdb;
+  color: rgb(0, 0, 0);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 7px;
+  background-color: rgb(25, 92, 168);
+  flex: 0 0 60%;
+}
+
+#quoteBtn {
+  border: none;
+  color: rgb(5, 46, 80);
+  background: #458bdb;
+  font-size: 1.3rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 7px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+#quoteBtn:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+blockquote {
+  background: #458bdb;
+  border-left: 10px solid rgb(23, 82, 131);
+  margin: 1.5rem;
+  padding: 0.5rem;
+}
+
+#quoteAuthor {
+  color: black;
+}

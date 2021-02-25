@@ -1,0 +1,23 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* vaakasuunnas */
+  align-items: center; /* pystysuunnas */
+}
+
+/* nappulan muokkaus */
+.colorBtn {
+  padding: 0.5rem 0.5rem;
+  border: 1px solid red;
+  border-radius: 100%;
+  color: rgb(255, 0, 0);
+  background: rgba(0, 0, 0, 0.9);
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+}
+
+/* hiiri päällä */
+.colorBtn:hover {
+  color: yellow;
+}
