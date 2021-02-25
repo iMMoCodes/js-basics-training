@@ -1,1 +1,1 @@
-# js-basics-training
+# My very first projects in JS
